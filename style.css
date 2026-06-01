@@ -21,16 +21,15 @@ input[type="password"] {
     width: 100%;    
     padding: 12px;        
     margin: 10px 0;        
-    border: 1px solid #ccc;
-    border-radius: 8px;    /* Corners round karne ke liye */
-    box-sizing: border-box; /* Sabse important: border width ke andar rahega */
+    border: 1px solid rgb(128, 126, 127);
+    border-radius: 8px;    
+    box-sizing: border-box;
 }
 
-/* Remember me aur Forget password ek line mein */
 .remember_forget {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
     font-size: 14px;
     margin: 10px 0 20px 0;
 }
