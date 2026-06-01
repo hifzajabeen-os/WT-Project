@@ -1,0 +1,53 @@
+body {
+    background-color: #8a5a6a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:'Segoe UI';
+}
+
+.login {
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+input[type="text"], 
+input[type="password"] {
+    width: 100%;    
+    padding: 12px;        
+    margin: 10px 0;        
+    border: 1px solid #ccc;
+    border-radius: 8px;    /* Corners round karne ke liye */
+    box-sizing: border-box; /* Sabse important: border width ke andar rahega */
+}
+
+/* Remember me aur Forget password ek line mein */
+.remember_forget {
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color:rgb( 156, 65, 103);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.register {
+    margin-top: 20px;
+}
